@@ -1,0 +1,87 @@
+Frontend:
+
+- typy powinny być reużywalne w innych komponentach, najlepiej jakby były zdefiniowane w oddzielnych plikach ***
+- przykładowe wartości w formularzach powinny byc placeholderami ***
+- dodac walidacje przy dodawaniu/edycji ***
+- brak obsligi zlych odpowiedzi z backendu
+- po zmienie na stronie np usunieciu elementu powinien sie odświeżać tylko komponent a nie cała strona ***
+- pozbyć się eslint-disable - rozwiązać warningi/errory ***
+- nie uzywac any[] -> dodac typy np employee ***
+- adres URL do backendu nie powinien być zahardocodwany, powinien być ustawiony w jednym miejscu (na przykład .env lub vite-env) tak aby łatwo można było go zmienić ***
+- przyciski delete/update/details -> dodac odstepy i zamienic details z delete ***
+- przypisanie projektu do pracownika -> przechodzi na szczegoly projektu ale nie o jego id tylko polaczenia z pracownikiem ***
+- responsywnosc ***
+
+
+Backend:
+- dodać wartwę serwisową ***
+- kontroler powinien zwracać dto a nie czysty obiekt (mapowanie np z wykorzystaniem mapstruct)***
+- dodać walidacje pól przy dodawanii/edycji***
+- obslużyć wyjątki, np brak obiektu o podanym id
+- dodac foldery .gradle i build do .gitignore ***
+- uspójnić nazewnictwo zmiennych - camelCase ***
+- @GetMapping("/{id}/projectsnot") - mało mówiąca nazwa endpointa, niezgodna z zasadami REST ***
+
+
+
+
+
+
+
+
+
+
+
+- formatowanie kodu
+- testy jednostkowe
+
+
+
+
+
+
+
+
+
+
+co zrobilem
+
+- @GetMapping("/{id}/projectsnot") - mało mówiąca nazwa endpointa, niezgodna z zasadami REST ***
+- dodac foldery .gradle i build do .gitignore ***
+- przypisanie projektu do pracownika -> przechodzi na szczegoly projektu ale nie o jego id tylko polaczenia z pracownikiem ***
+- adres URL do backendu nie powinien być zahardocodwany, powinien być ustawiony w jednym miejscu (na przykład .env lub vite-env) tak aby łatwo można było go zmienić ***
+- przykładowe wartości w formularzach powinny byc placeholderami ***
+- przyciski delete/update/details -> dodac odstepy i zamienic details z delete ***
+
+
+
+
+
+
+
+
+co robie teraz
+- dodać wartwę serwisową ***
+- dodać walidacje pól przy dodawanii/edycji
+
+
+
+
+- obsluga zlych odpowiedzi z backend
+--> brak projektu o podanym id
+--> brak pracownika o podanym id
+
+
+
+
+
+
+
+co zrobilem dzisiaj
+- nie uzywac any[] -> dodac typy np employee ***
+- pozbyć się eslint-disable - rozwiązać warningi/errory ***
+- dodac walidacje przy dodawaniu/edycji ***
+- typy powinny być reużywalne w innych komponentach, najlepiej jakby były zdefiniowane w oddzielnych plikach ***
+- responsywnosc ***
+
+

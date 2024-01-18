@@ -1,0 +1,77 @@
+/* Consider using meaningful class names for better maintainability */
+
+.maindiv,
+.maindiv2,
+.condiv,
+.maindiv3,
+.button1,
+.maindiv5 {
+    position: fixed;
+    right: 0;
+    width: 100%;
+    max-width: 1680px;
+    height: auto; /* Adjust according to content */
+}
+
+.maindiv {
+    top: 0;
+    bottom: 10px;
+    padding-top: 70px;
+    overflow-y: scroll;
+}
+
+.alterdiv {
+    bottom: 0;
+    height: 30px;
+    overflow: initial;
+}
+
+.maindiv2 {
+    top: 160px;
+    bottom: 100px;
+    padding-top: 60px;
+    background-color: lightgrey;
+}
+
+.condiv {
+    top: 60px;
+    bottom: 100px;
+    padding-top: 60px;
+    background-color: wheat;
+}
+
+.maindiv3 {
+    top: 65px;
+    bottom: 400px;
+    padding-top: 60px;
+    background-color: lightgrey;
+    overflow-y: scroll;
+}
+
+.button1 {
+    bottom: 20px;
+    width: 100%; /* Full width */
+    height: auto; /* Adjust according to content */
+    background-color: black;
+}
+
+.maindiv5 {
+    top: 0;
+    bottom: 200px;
+    padding-top: 60px;
+    height: 200px;
+    background-color: white;
+}
+
+/* Media queries for additional responsiveness */
+@media screen and (max-width: 768px) {
+    .maindiv,
+    .maindiv2,
+    .condiv,
+    .maindiv3,
+    .button1,
+    .maindiv5 {
+        width: 100%;
+        max-width: 100%;
+    }
+}

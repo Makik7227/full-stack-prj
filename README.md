@@ -13,7 +13,7 @@ FULL STACK APPLICATION USED FOR MANAGING  PROJECTS AND EMPLOYEES CONTAINING FEAT
 HOW TO BUILD AND RUN FRONTEND
 - Navigate to directory
  ```
-cd full-stack-praca/fullstack-frontend
+cd full-stack-prj/fullstack-frontend
 ```
 - Install dependencies
  ```
@@ -29,7 +29,7 @@ HOW TO BUILD AND RUN BACKEND
 
 - Navigate to directory
  ```
-cd full-stack-praca/fullstack-backend
+cd full-stack-prj/fullstack-backend
 ```
 - Build and run application
  ```
@@ -40,7 +40,7 @@ cd full-stack-praca/fullstack-backend
 HOW TO RUN DOCKER
 - Navigate to directory
  ```
-cd full-stack-praca/docker
+cd full-stack-prj/docker
 ```
 - Run docker compose command
  ```
